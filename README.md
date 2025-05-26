@@ -1,1 +1,0 @@
-# Nextjs_Basic_Projects
