@@ -1,10 +1,11 @@
 import { Revenue } from './definitions';
 
 export const formatCurrency = (amount: number) => {
-  return (amount / 100).toLocaleString('en-US', {
+  const result  = (amount / 282.11).toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD',
   });
+  return result
 };
 
 export const formatDateToLocal = (
